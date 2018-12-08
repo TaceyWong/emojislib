@@ -4,6 +4,8 @@ get/search methods
 from __future__ import absolute_import
 from .emojis import Emojis
 
+
+
 class TypeException(Exception):
     def __init__(self,expect,get_):
         super().__init__(self) 

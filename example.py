@@ -8,5 +8,11 @@ print("category:",emoji.category)
 print("keywords:",emoji.keywords)
 
 
-emoji = emojis.by_cate('pc')
-print(emoji)
+emoji = emojis.by_cate('animals_and_nature')
+print("animals_and_nature",emoji)
+
+emoji = emojis.by_key('winter')
+print("winter:",emoji)
+
+
+

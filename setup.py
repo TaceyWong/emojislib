@@ -14,6 +14,11 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     url="https://github.com/TaceyWong/emojislib",
     packages=setuptools.find_packages(),
+    entry_points={
+        'console_scripts': [
+            'emojis = emojislib.__cli__:main',
+        ],
+    },
     classifiers=[
         'Environment :: Console',
         'Intended Audience :: Developers',
